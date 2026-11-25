@@ -221,3 +221,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# QuantEdge - Financial datasets
+/data/
+
+# Generated research artifacts
+/artifacts/
+/reports/
+/logs/
+/outputs/
+
+# Private portfolio information
+/private/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
